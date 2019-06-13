@@ -1,0 +1,9 @@
+1. Mapping: 
+first of all I used turtlebot_gazebo package to spawn the turtlebot robot at my world (Nasser1.world) and perform the SLAM. After that I used turtlebot_teleop package to control the turtlebot manually in my world. then I used turtlebot_rviz_launchers package to show the map on rviz.
+2. Localization and Navigation:
+for lcalization and navigation I also used turtlebot_gazebo package to spawn the turtlebot at my world (Nasser1.world) and to localize my robot using amcl demo. Also, I used turtlebot_rviz_launchers package to show the map on rviz. And I used pick_objects package to show the move the turtlebot between two points using rviz 2d_navigation command.
+3. Home Service Functions:
+for the home service functions, I also used turtlebot_gazebo package to spawn the turtlebot at my world (Nasser1.world) and to localize my robot using amcl demo. Also, I used turtlebot_rviz_launchers package to show the map on rviz. And I used add_markers package to show the markers as (Cubes) on the map for the pick-up and drop-off location. Finally, I edited the codes to connect the pick_objects function to the add_markers function to perform the requirements of the Home Service Robot.    
+
+
+
